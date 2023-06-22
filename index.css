@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+
+}
+.appConatainer{
+    height: 650px;
+    width: 350px;
+    border-radius: 15px;
+    
+    
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.middle{
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: space-evenly;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    right: 50px;
+    left: 50px;
+    align-items: center;
+    margin-top: 40px;
+}
+#temp{
+    font-size: 50px;
+
+}
+.end{
+    display: flex;
+}
+/* .humidityIcon{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    border-radius: 100%;
+
+} */
+.icon{
+    color: black;
+}
+.end{
+    position: relative;
+    top: 85%;
+    
+}
+.humadity{
+    display: flex;
+}
+#humiPer{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.humidityImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: aqua ;
+
+}
+.windSpeedImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: aqua ;
+}
+.windSpeed{
+    display: flex;
+}
+#city{
+    font-size: 30px;
+
+}
+.location{
+    margin: 50px  20px;
+}
+i {
+    height: 30px;
+}
+.location > input{
+    border-radius: 10px;
+    height: 30px;
+    width: 60%;
+    font-size: 20px;
+    border: none;
+    padding-left: 20px;
+    outline: none;
+    background-color: aqua;
+}
+#searchBtn{
+    width: 90px;
+    height: 30px;
+    font-size:medium;
+    color: blueviolet;
+    border-radius: 20px;
+    background-color: aqua;
+
+}
+#searchBtn:hover{
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+.cloudygif{
+    border-radius: 25px;
+}
+.input::placeholder {
+    color : blueviolet;
+    font-size: 20px;
+
+
+}
+hr{
+    width: 150%;
+    margin-top: 0px;
+    color: blueviolet;
+    justify-content: center;
+    font-weight: bolder;
+    
+
+}
